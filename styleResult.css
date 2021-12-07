@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&family=PT+Sans&family=Roboto:wght@400;700&display=swap');
+
+*
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Nunito', sans-serif;
+	color: white;
+}
+
+body
+{
+	background-color: #1e2124;
+	height: 100vh;
+}
+
+#container
+{
+	/* display: flex; */
+	/* flex-direction: column; */
+	/* align-items: center; */
+	height: 100%;
+	overflow: auto;
+}
+
+#score-box
+{
+	width: 80%;
+	margin: 30px auto;
+	font-size: 50px;
+}
+
+#score-title
+{
+	font-size: 40px;
+	border-bottom: 5px solid #5A20CB;
+	margin-bottom: 15px;
+}
+
+#score
+{
+	color: blue;
+}
+
+
+#solutions
+{
+	max-width: 1000px;
+	margin: auto;
+	margin-bottom: 50px;
+}
+
+.solDetails
+{
+	font-size: 20px;
+	border: 2px solid #81b2e2;
+	margin: 20px;
+	padding: 20px;
+}
+
+
+#question
+{
+	margin: 20px;
+}
+
+ul#options
+{
+	list-style-type: none;
+}
+
+ul#options li
+{
+	margin-bottom: 5px;
+	border-radius: 2px;
+	padding: 5px 10px;
+	display: flex;
+	align-items: center;
+}
+
+
+ul#options li span.option
+{
+	margin-left: 15px;
+}
+
+ul#options li span.marker
+{
+	margin-left: auto;
+}
+
+
+
+
+.hide
+{
+	display: none;
+}
+
+.invisible
+{
+	visibility: hidden;
+}
+
+.correct
+{
+	background-color: rgb(29, 168, 76);
+}
+
+.incorrect
+{
+	background-color: red;
+}
